@@ -1,0 +1,28 @@
+{
+  "name": "firstapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "node node_modules/nodemon/bin/nodemon.js server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeema7/FirstAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeema7/FirstAPI/issues"
+  },
+  "homepage": "https://github.com/jeema7/FirstAPI#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
